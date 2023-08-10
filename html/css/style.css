@@ -1,0 +1,48 @@
+/* Here is CSS comment */
+
+/* select tag {
+      property: value;
+} */
+
+h1{
+    color: red;
+    text-decoration: underline;
+    font-size: 25px;
+}
+p{
+    font-size:50px;
+}
+
+/* 클래스 타겟 */
+.outer{
+    background-color: orange;
+    border-style:dashed;
+}
+
+.inner{
+    background-color: yellow;
+    border-width: 5px;
+    border-style: double;
+}
+/* 클래스 안의 자식 */
+.outer > p{
+    font-size: 30px;
+}
+
+/* 아이디 */
+#Smaller{
+    color:aqua;
+    font-size:50px;
+}
+
+/* 형제 지간 
+동등한 레벨 바로 뒤에 나올경우 + 사용
+여기서는 p 다음 바로 나오는 태그를 선택 */
+p + h2{
+    color: blue;
+}
+
+/* ul 안에 li 안에 a를 봤을 경우*/
+ul li a{
+    color:violet;
+}

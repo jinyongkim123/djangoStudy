@@ -1,0 +1,17 @@
+body{
+    font-size: 50px;
+}
+
+/*커스텀 글씨체*/
+/*Google Fonts에 무료 폰트 다운 가능*/
+@font-face{
+    font-family: 'Roboto-Black';
+    src: url('Roboto/Roboto-Black.ttf') format('truetype')
+}
+
+p {
+    font-family: 'Roboto-Black';
+    /* em은? 기존의 글씨 크기 사이즈보다 ?배를 한다는 뜻*/
+    
+    font-size: 2em;/* 50 * 2 */
+}

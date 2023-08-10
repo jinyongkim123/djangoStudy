@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <h1>Restaurent Booking</h1>
+        <!-- 같은 radio 묶음에 있을 경우 value은 다를지라도 name은 같아야함 -->
+        <label for="postion">Postion:</label><br>
+        <input type="radio" id="inside" name="postion" value="inside" checked>
+        <label for="html">Inside</label><br>
+        <input type="radio" id="outside" name="postion" value="outside">
+        <label for="css">Outside</label><br>
+        <br>
+        <!-- 달력부분 -->
+        <label for="reservationDate">Reservation Date:</label>
+        <input type="date" id="reservationDate" name="reservationDate">
+        <br>
+        <!-- 선택부분 -->
+        <label for="party">Party:</label>
+        <select name="party" id="party">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone">
+        <!-- 제출 -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
